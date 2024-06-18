@@ -41,7 +41,7 @@ jobs:
           cd Apple
           ./Start.sh
           cd MultiCraft
-          xcodebuild -scheme "AnimatedAppIcons" \
+          xcodebuild -scheme "MultiCraft" \
           -archivePath $RUNNER_TEMP/app.xcarchive \
           -sdk iphoneos \
           -configuration Release \
